@@ -1,4 +1,5 @@
 import org.gradle.api.tasks.testing.logging.TestLogEvent
+import org.checkerframework.gradle.plugin.CheckerFrameworkExtension
 
 plugins {
     java
@@ -22,6 +23,7 @@ plugins {
     id("de.thetaphi.forbiddenapis")
 
     id("com.hivemq.third-party-license-generator")
+    id("org.checkerframework") version "0.6.35"
 }
 
 
@@ -302,6 +304,16 @@ forbiddenApis {
 tasks.forbiddenApisMain {
     exclude("**/BatchedException.class")
     exclude("**/LoggingBootstrap.class")
+}
+
+configure<CheckerFrameworkExtension> {
+    checkers = listOf(
+        "org.checkerframework.checker.optional.OptionalChecker"
+    )
+    extraJavacArgs = listOf(
+        "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
+        "-AassumePure"
+    )
 }
 
 tasks.forbiddenApisTest { enabled = false }
