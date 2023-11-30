@@ -26,6 +26,7 @@ import java.util.Optional;
  */
 public class ConfigurationFile {
 
+    @SuppressWarnings("optional.field") // optional-field : Simple deviation from best-practice. Field could have just been @Nullable File.
     private final Optional<File> configurationFile;
 
     public ConfigurationFile(@Nullable final File configurationFile) {

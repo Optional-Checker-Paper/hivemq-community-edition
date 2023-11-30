@@ -40,6 +40,7 @@ public class SubscriptionAuthorizerInputImpl
     @NotNull
     private final UserProperties userProperties;
 
+    @SuppressWarnings("optional:optional.field") // optional-field : Simple deviation from best practice. Field could have just been @Nullable Integer.
     @NotNull
     private final Optional<Integer> subscriptionIdentifier;
 

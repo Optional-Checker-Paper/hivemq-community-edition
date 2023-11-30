@@ -154,6 +154,10 @@ public class DiagnosticMode {
         }
     }
 
+    @SuppressWarnings({
+            "optional:method.invocation", // application-invariant : this method is only called from one place immediately after checking the parameter isPresent()
+            "optional:optional.parameter" // optional-parameter : this method is only called from one place immediately after checking the parameter isPresent. The value could have been passed instead.
+    })
     private void copyMigrationLog(final @NotNull Optional<File> diagnosticsFolder) {
 
         //copy migration log if available
