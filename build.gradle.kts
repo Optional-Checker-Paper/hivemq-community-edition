@@ -1,4 +1,5 @@
 import org.gradle.api.tasks.testing.logging.TestLogEvent
+import net.ltgt.gradle.errorprone.errorprone
 
 plugins {
     java
@@ -20,6 +21,7 @@ plugins {
     id("pmd")
     id("com.github.spotbugs")
     id("de.thetaphi.forbiddenapis")
+    id("net.ltgt.errorprone") version "3.1.0"
 
     id("com.hivemq.third-party-license-generator")
 }
@@ -272,6 +274,22 @@ pmd {
     sourceSets = listOf(project.sourceSets.main.get())
     isIgnoreFailures = true
     rulesMinimumPriority.set(3)
+}
+
+repositories {
+     mavenCentral()
+ }
+ dependencies {
+     errorprone("com.google.errorprone:error_prone_core:2.23.0")
+ }
+
+tasks.withType<JavaCompile>().configureEach {
+    options.errorprone.disableWarningsInGeneratedCode.set(true)
+   options.errorprone.disableAllChecks.set(true)
+   options.errorprone.enable("NullOptional", "NullableOptional",
+     "OptionalMapToOptional", "OptionalNotPresent", "OptionalEquality",
+     "OptionalMapUnusedValue", "OptionalOfRedundantMethod", "UnnecessaryOptionalGet"
+   )
 }
 
 spotbugs {
