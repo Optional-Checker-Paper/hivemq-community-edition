@@ -18,7 +18,7 @@ plugins {
     /* Code Quality Plugins */
     id("jacoco")
     id("pmd")
-    id("com.github.spotbugs")
+    id("com.github.spotbugs") version "5.2.5"
     id("de.thetaphi.forbiddenapis")
 
     id("com.hivemq.third-party-license-generator")
@@ -275,14 +275,20 @@ pmd {
 }
 
 spotbugs {
-    toolVersion.set("${property("spotbugs.version")}")
     ignoreFailures.set(true)
-    reportLevel.set(com.github.spotbugs.snom.Confidence.MEDIUM)
+    toolVersion.set("4.8.2")
+    effort.set(com.github.spotbugs.snom.Effort.DEFAULT)
+    reportLevel.set(com.github.spotbugs.snom.Confidence.DEFAULT)
+    reportsDir.set(file("$buildDir/spotbugs"))
 }
 
-dependencies {
-    spotbugsPlugins("com.h3xstream.findsecbugs:findsecbugs-plugin:1.8.0")
+ dependencies {
+    spotbugs("com.github.spotbugs:spotbugs:4.7.1")
 }
+
+// dependencies {
+//     spotbugsPlugins("com.h3xstream.findsecbugs:findsecbugs-plugin:1.8.0")
+// }
 
 dependencyCheck {
     analyzers.apply {
