@@ -103,6 +103,7 @@ public class ConnectionAttributeStoreImpl implements ConnectionAttributeStore {
 
     @NotNull
     @Override
+    @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
     public Optional<Map<String, ByteBuffer>> getAll() {
         final ConnectionAttributes connectionAttributes = ConnectionAttributes.getInstanceIfPresent(channel);
         if (connectionAttributes == null) {

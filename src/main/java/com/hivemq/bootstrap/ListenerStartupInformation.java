@@ -32,6 +32,7 @@ public class ListenerStartupInformation {
     private final boolean successful;
     private final Listener originalListener;
 
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private final Optional<Throwable> exception;
 
     private ListenerStartupInformation(

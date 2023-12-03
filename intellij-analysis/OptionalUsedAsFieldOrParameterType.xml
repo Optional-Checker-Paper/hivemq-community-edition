@@ -1,0 +1,288 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/bootstrap/ListenerStartupInformation.java</file>
+  <line>35</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.bootstrap</package>
+  <entry_point TYPE="field" FQNAME="com.hivemq.bootstrap.ListenerStartupInformation exception" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Throwable&gt;&lt;/code&gt; used as type for field 'exception'</description>
+  <highlighted_element>Optional&lt;Throwable&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>125</offset>
+  <length>19</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/configuration/reader/ConfigurationFile.java</file>
+  <line>29</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.configuration.reader</package>
+  <entry_point TYPE="field" FQNAME="com.hivemq.configuration.reader.ConfigurationFile configurationFile" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for field 'configurationFile'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>125</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/diagnostic/DiagnosticMode.java</file>
+  <line>157</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.diagnostic</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.diagnostic.DiagnosticMode void copyMigrationLog(java.util.Optional&lt;java.io.File&gt; diagnosticsFolder)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;File&gt;&lt;/code&gt; used as type for parameter 'diagnosticsFolder'</description>
+  <highlighted_element>Optional&lt;File&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>160</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/auth/parameter/SubscriptionAuthorizerInputImpl.java</file>
+  <line>44</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.auth.parameter</package>
+  <entry_point TYPE="field" FQNAME="com.hivemq.extensions.auth.parameter.SubscriptionAuthorizerInputImpl subscriptionIdentifier" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Integer&gt;&lt;/code&gt; used as type for field 'subscriptionIdentifier'</description>
+  <highlighted_element>Optional&lt;Integer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>125</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/PublishBuilderImpl.java</file>
+  <line>143</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.PublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.PublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PayloadFormatIndicator&gt;&lt;/code&gt; used as type for parameter 'payloadFormatIndicator'</description>
+  <highlighted_element>Optional&lt;PayloadFormatIndicator&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/PublishBuilderImpl.java</file>
+  <line>144</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.PublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.PublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Long&gt;&lt;/code&gt; used as type for parameter 'messageExpiryInterval'</description>
+  <highlighted_element>Optional&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>111</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/PublishBuilderImpl.java</file>
+  <line>145</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.PublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.PublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'responseTopic'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/PublishBuilderImpl.java</file>
+  <line>146</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.PublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.PublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ByteBuffer&gt;&lt;/code&gt; used as type for parameter 'correlationData'</description>
+  <highlighted_element>Optional&lt;ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>86</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/PublishBuilderImpl.java</file>
+  <line>147</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.PublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.PublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'contentType'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/PublishBuilderImpl.java</file>
+  <line>148</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.PublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.PublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ByteBuffer&gt;&lt;/code&gt; used as type for parameter 'payload'</description>
+  <highlighted_element>Optional&lt;ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>84</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/RetainedPublishBuilderImpl.java</file>
+  <line>143</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.RetainedPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.RetainedPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PayloadFormatIndicator&gt;&lt;/code&gt; used as type for parameter 'payloadFormatIndicator'</description>
+  <highlighted_element>Optional&lt;PayloadFormatIndicator&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/RetainedPublishBuilderImpl.java</file>
+  <line>144</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.RetainedPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.RetainedPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Long&gt;&lt;/code&gt; used as type for parameter 'messageExpiryInterval'</description>
+  <highlighted_element>Optional&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>111</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/RetainedPublishBuilderImpl.java</file>
+  <line>145</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.RetainedPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.RetainedPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'responseTopic'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/RetainedPublishBuilderImpl.java</file>
+  <line>146</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.RetainedPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.RetainedPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ByteBuffer&gt;&lt;/code&gt; used as type for parameter 'correlationData'</description>
+  <highlighted_element>Optional&lt;ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>86</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/RetainedPublishBuilderImpl.java</file>
+  <line>147</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.RetainedPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.RetainedPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'contentType'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/RetainedPublishBuilderImpl.java</file>
+  <line>148</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.RetainedPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.RetainedPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ByteBuffer&gt;&lt;/code&gt; used as type for parameter 'payload'</description>
+  <highlighted_element>Optional&lt;ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>84</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/WillPublishBuilderImpl.java</file>
+  <line>176</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.WillPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.WillPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties, long willDelay)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;PayloadFormatIndicator&gt;&lt;/code&gt; used as type for parameter 'payloadFormatIndicator'</description>
+  <highlighted_element>Optional&lt;PayloadFormatIndicator&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>32</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/WillPublishBuilderImpl.java</file>
+  <line>177</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.WillPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.WillPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties, long willDelay)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;Long&gt;&lt;/code&gt; used as type for parameter 'messageExpiryInterval'</description>
+  <highlighted_element>Optional&lt;Long&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>111</offset>
+  <length>14</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/WillPublishBuilderImpl.java</file>
+  <line>178</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.WillPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.WillPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties, long willDelay)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'responseTopic'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/WillPublishBuilderImpl.java</file>
+  <line>179</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.WillPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.WillPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties, long willDelay)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ByteBuffer&gt;&lt;/code&gt; used as type for parameter 'correlationData'</description>
+  <highlighted_element>Optional&lt;ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>86</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/WillPublishBuilderImpl.java</file>
+  <line>180</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.WillPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.WillPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties, long willDelay)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;String&gt;&lt;/code&gt; used as type for parameter 'contentType'</description>
+  <highlighted_element>Optional&lt;String&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>16</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/services/builder/WillPublishBuilderImpl.java</file>
+  <line>181</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.services.builder</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.services.builder.WillPublishBuilderImpl com.hivemq.extension.sdk.api.services.builder.WillPublishBuilder fromComplete(com.hivemq.extension.sdk.api.packets.general.Qos qos, boolean retain, java.lang.String topic, java.util.Optional&lt;com.hivemq.extension.sdk.api.packets.publish.PayloadFormatIndicator&gt; payloadFormatIndicator, java.util.Optional&lt;java.lang.Long&gt; messageExpiryInterval, java.util.Optional&lt;java.lang.String&gt; responseTopic, java.util.Optional&lt;java.nio.ByteBuffer&gt; correlationData, java.util.Optional&lt;java.lang.String&gt; contentType, java.util.Optional&lt;java.nio.ByteBuffer&gt; payload, com.hivemq.extension.sdk.api.packets.general.UserProperties userProperties, long willDelay)" />
+  <problem_class id="OptionalUsedAsFieldOrParameterType" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' used as field or parameter type</problem_class>
+  <description>&lt;code&gt;Optional&lt;ByteBuffer&gt;&lt;/code&gt; used as type for parameter 'payload'</description>
+  <highlighted_element>Optional&lt;ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>84</offset>
+  <length>20</length>
+</problem>
+</problems>

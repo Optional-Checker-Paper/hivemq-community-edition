@@ -136,6 +136,7 @@ public class ConnectionAttributes {
      * @return all connection attributes as a map of key and value pairs
      */
     @NotNull
+    @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
     public synchronized Optional<Map<String, ByteBuffer>> getAll() {
         if (data == null) {
             return Optional.empty();

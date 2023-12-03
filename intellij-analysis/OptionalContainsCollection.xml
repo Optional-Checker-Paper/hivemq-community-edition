@@ -1,0 +1,54 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/client/parameter/ClientTlsInformationImpl.java</file>
+  <line>75</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.client.parameter</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.client.parameter.ClientTlsInformationImpl java.util.Optional&lt;java.security.cert.X509Certificate[]&gt; getClientCertificateChain()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains array &lt;code&gt;X509Certificate[]&lt;/code&gt;</description>
+  <highlighted_element>X509Certificate[]</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>17</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/client/parameter/ConnectionAttributeStoreImpl.java</file>
+  <line>106</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.client.parameter</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.client.parameter.ConnectionAttributeStoreImpl java.util.Optional&lt;java.util.Map&lt;java.lang.String,java.nio.ByteBuffer&gt;&gt; getAll()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;Map&lt;String, ByteBuffer&gt;&lt;/code&gt;</description>
+  <highlighted_element>Map&lt;String, ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>20</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/client/parameter/ConnectionAttributes.java</file>
+  <line>139</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.client.parameter</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.client.parameter.ConnectionAttributes java.util.Optional&lt;java.util.Map&lt;java.lang.String,java.nio.ByteBuffer&gt;&gt; getAll()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains collection &lt;code&gt;Map&lt;String, ByteBuffer&gt;&lt;/code&gt;</description>
+  <highlighted_element>Map&lt;String, ByteBuffer&gt;</highlighted_element>
+  <language>JAVA</language>
+  <offset>33</offset>
+  <length>23</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/extensions/packets/auth/AuthPacketImpl.java</file>
+  <line>86</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.extensions.packets.auth</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.extensions.packets.auth.AuthPacketImpl java.util.Optional&lt;byte[]&gt; getAuthenticationDataAsArray()" />
+  <problem_class id="OptionalContainsCollection" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">'Optional' contains array or collection</problem_class>
+  <description>'Optional' contains array &lt;code&gt;byte[]&lt;/code&gt;</description>
+  <highlighted_element>byte[]</highlighted_element>
+  <language>JAVA</language>
+  <offset>29</offset>
+  <length>6</length>
+</problem>
+</problems>

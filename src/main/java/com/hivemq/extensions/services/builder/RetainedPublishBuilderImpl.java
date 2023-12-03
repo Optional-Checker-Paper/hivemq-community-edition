@@ -137,6 +137,7 @@ public class RetainedPublishBuilderImpl implements RetainedPublishBuilder {
     }
 
     @NotNull
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
     private RetainedPublishBuilder fromComplete(
             @NotNull final Qos qos,
             @NotNull final String topic,

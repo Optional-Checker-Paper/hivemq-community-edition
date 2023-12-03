@@ -82,6 +82,7 @@ public class AuthPacketImpl implements AuthPacket {
         return Optional.of(ByteBuffer.wrap(data).asReadOnlyBuffer());
     }
 
+    @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
     @Override
     public @NotNull Optional<byte[]> getAuthenticationDataAsArray() {
         if (data == null) {

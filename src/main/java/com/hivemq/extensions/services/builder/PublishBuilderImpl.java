@@ -136,6 +136,7 @@ public class PublishBuilderImpl implements PublishBuilder {
     }
 
     @NotNull
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
     private PublishBuilder fromComplete(
             @NotNull final Qos qos,
             final boolean retain,

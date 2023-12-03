@@ -72,6 +72,7 @@ public class ClientTlsInformationImpl implements ClientTlsInformation, TlsInform
     }
 
     @Override
+    @SuppressWarnings("OptionalContainsCollection") // intellij-suppression-optional-contains-collection
     public @NotNull Optional<X509Certificate[]> getClientCertificateChain() {
         return Optional.ofNullable(certificateChain);
     }

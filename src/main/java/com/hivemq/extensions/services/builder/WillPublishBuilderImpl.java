@@ -169,6 +169,7 @@ public class WillPublishBuilderImpl implements WillPublishBuilder {
 
 
     @NotNull
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-parameter
     private WillPublishBuilder fromComplete(
             final @NotNull Qos qos,
             final boolean retain,

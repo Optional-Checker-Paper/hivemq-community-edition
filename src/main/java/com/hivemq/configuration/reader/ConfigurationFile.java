@@ -26,6 +26,7 @@ import java.util.Optional;
  */
 public class ConfigurationFile {
 
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private final Optional<File> configurationFile;
 
     public ConfigurationFile(@Nullable final File configurationFile) {

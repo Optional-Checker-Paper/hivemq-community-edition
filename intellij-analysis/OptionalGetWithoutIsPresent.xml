@@ -1,0 +1,15 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/com/hivemq/diagnostic/DiagnosticMode.java</file>
+  <line>164</line>
+  <module>hivemq-community-edition.main</module>
+  <package>com.hivemq.diagnostic</package>
+  <entry_point TYPE="method" FQNAME="com.hivemq.diagnostic.DiagnosticMode void copyMigrationLog(java.util.Optional&lt;java.io.File&gt; diagnosticsFolder)" />
+  <problem_class id="OptionalGetWithoutIsPresent" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Optional.get() is called without isPresent() check</problem_class>
+  <description>&lt;code&gt;Optional.get()&lt;/code&gt; without 'isPresent()' check</description>
+  <highlighted_element>get</highlighted_element>
+  <language>JAVA</language>
+  <offset>96</offset>
+  <length>3</length>
+</problem>
+</problems>

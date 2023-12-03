@@ -41,6 +41,7 @@ public class SubscriptionAuthorizerInputImpl
     private final UserProperties userProperties;
 
     @NotNull
+    @SuppressWarnings("OptionalUsedAsFieldOrParameterType") // intellij-suppression-optional-used-as-field
     private final Optional<Integer> subscriptionIdentifier;
 
     @NotNull

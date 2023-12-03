@@ -154,6 +154,11 @@ public class DiagnosticMode {
         }
     }
 
+    @SuppressWarnings({
+            "OptionalUsedAsFieldOrParameterType", // intellij-suppression-optional-used-as-parameter
+            "OptionalGetWithoutIsPresent" // intellij-suppression-optional-get-without-check-fp
+    })
+
     private void copyMigrationLog(final @NotNull Optional<File> diagnosticsFolder) {
 
         //copy migration log if available
