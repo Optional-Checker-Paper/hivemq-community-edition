@@ -312,8 +312,10 @@ configure<CheckerFrameworkExtension> {
     )
     extraJavacArgs = listOf(
         "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
-        "-AassumePure"
+        "-AassumePure",
+        "-AwarnUnneededSuppressions"
     )
+    excludeTests = true
 }
 
 tasks.forbiddenApisTest { enabled = false }
