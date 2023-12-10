@@ -87,6 +87,7 @@ java {
 
 repositories {
     mavenCentral()
+    maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots/") }
 }
 
 dependencies {
@@ -316,6 +317,15 @@ configure<CheckerFrameworkExtension> {
         "-AwarnUnneededSuppressions"
     )
     excludeTests = true
+    val checkerFrameworkVersion = "3.41.1-SNAPSHOT"
+    dependencies {
+        compileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
+        testCompileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
+        checkerFramework("org.checkerframework:checker:${checkerFrameworkVersion}")
+    }
+    configurations.all({
+        resolutionStrategy.cacheChangingModulesFor(0, "seconds")
+    })
 }
 
 tasks.forbiddenApisTest { enabled = false }
