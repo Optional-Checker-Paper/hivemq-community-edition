@@ -32,7 +32,7 @@ public class ListenerStartupInformation {
     private final boolean successful;
     private final Listener originalListener;
 
-    @SuppressWarnings("optional.field") // optional-field : Simple deviation from best-practice. Field could have just been @Nullable Throwable.
+    @SuppressWarnings("optional.field") // optional-field
     private final Optional<Throwable> exception;
 
     private ListenerStartupInformation(

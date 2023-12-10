@@ -168,7 +168,7 @@ public class WillPublishBuilderImpl implements WillPublishBuilder {
     }
 
 
-    @SuppressWarnings("optional:optional.parameter") // optional-parameter : Simple deviation from best-practice.
+    @SuppressWarnings("optional:optional.parameter") // optional-parameter
     @NotNull
     private WillPublishBuilder fromComplete(
             final @NotNull Qos qos,
