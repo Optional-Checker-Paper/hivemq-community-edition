@@ -308,10 +308,10 @@ tasks.forbiddenApisMain {
 }
 
 configure<CheckerFrameworkExtension> {
-    checkers = listOf(
+    checkers = mutableListOf(
         "org.checkerframework.checker.optional.OptionalChecker"
     )
-    extraJavacArgs = listOf(
+    extraJavacArgs = mutableListOf(
         "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
         "-AassumePure",
         "-AwarnUnneededSuppressions"

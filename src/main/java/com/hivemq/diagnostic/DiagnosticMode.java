@@ -28,6 +28,7 @@ import com.hivemq.extension.sdk.api.annotations.NotNull;
 import com.hivemq.extension.sdk.api.annotations.Nullable;
 import com.hivemq.util.ThreadFactoryUtil;
 import org.apache.commons.io.FileUtils;
+import org.checkerframework.checker.optional.qual.Present;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -155,10 +156,9 @@ public class DiagnosticMode {
     }
 
     @SuppressWarnings({
-            "optional:method.invocation", // application-invariant : this method is only called from one place immediately after checking the parameter isPresent()
             "optional:optional.parameter" // optional-parameter : this method is only called from one place immediately after checking the parameter isPresent. The value could have been passed instead.
     })
-    private void copyMigrationLog(final @NotNull Optional<File> diagnosticsFolder) {
+    private void copyMigrationLog(final @NotNull @Present Optional<File> diagnosticsFolder) {
 
         //copy migration log if available
         final File migrationLog = new File(systemInformation.getLogFolder(), FILE_NAME_MIGRATION_LOG);
