@@ -308,7 +308,7 @@ tasks.forbiddenApisMain {
 }
 
 configure<CheckerFrameworkExtension> {
-    checkers = mutableListOf(
+    checkers = listOf(
         "org.checkerframework.checker.optional.OptionalChecker"
     )
     extraJavacArgs = mutableListOf(
