@@ -314,7 +314,8 @@ configure<CheckerFrameworkExtension> {
     extraJavacArgs = mutableListOf(
         "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
         "-AassumePure",
-        "-AwarnUnneededSuppressions"
+        "-AwarnUnneededSuppressions",
+        "-AassumeAssertionsAreEnabled"
     )
     excludeTests = true
     val checkerFrameworkVersion = "3.41.1-SNAPSHOT"
