@@ -168,7 +168,7 @@ public class WillPublishBuilderImpl implements WillPublishBuilder {
     }
 
 
-    @SuppressWarnings("optional:optional.parameter") // optional-parameter
+    @SuppressWarnings("optional:optional.parameter") // style-optional-parameter
     @NotNull
     private WillPublishBuilder fromComplete(
             final @NotNull Qos qos,

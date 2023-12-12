@@ -32,7 +32,7 @@ public class ListenerStartupInformation {
     private final boolean successful;
     private final Listener originalListener;
 
-    @SuppressWarnings("optional.field") // optional-field
+    @SuppressWarnings("optional.field") // style-optional-field
     private final Optional<Throwable> exception;
 
     private ListenerStartupInformation(

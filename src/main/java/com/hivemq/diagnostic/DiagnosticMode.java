@@ -156,7 +156,7 @@ public class DiagnosticMode {
     }
 
     @SuppressWarnings({
-            "optional:optional.parameter" // optional-parameter : this method is only called from one place immediately after checking the parameter isPresent. The value could have been passed instead.
+            "optional:optional.parameter" // style-optional-parameter : this method is only called from one place immediately after checking the parameter isPresent. The value could have been passed instead.
     })
     private void copyMigrationLog(final @NotNull @Present Optional<File> diagnosticsFolder) {
 

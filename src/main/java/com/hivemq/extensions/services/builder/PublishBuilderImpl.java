@@ -135,7 +135,7 @@ public class PublishBuilderImpl implements PublishBuilder {
                 publish.getUserProperties());
     }
 
-    @SuppressWarnings("optional:optional.parameter") // optional-parameter
+    @SuppressWarnings("optional:optional.parameter") // style-optional-parameter
     @NotNull
     private PublishBuilder fromComplete(
             @NotNull final Qos qos,

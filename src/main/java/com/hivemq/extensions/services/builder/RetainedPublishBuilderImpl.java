@@ -136,7 +136,7 @@ public class RetainedPublishBuilderImpl implements RetainedPublishBuilder {
                 publish.getUserProperties());
     }
 
-    @SuppressWarnings("optional:optional.parameter") // optional-parameter
+    @SuppressWarnings("optional:optional.parameter") // style-optional-parameter
     @NotNull
     private RetainedPublishBuilder fromComplete(
             @NotNull final Qos qos,

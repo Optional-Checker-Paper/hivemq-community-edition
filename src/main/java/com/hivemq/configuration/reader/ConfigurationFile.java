@@ -26,7 +26,7 @@ import java.util.Optional;
  */
 public class ConfigurationFile {
 
-    @SuppressWarnings("optional.field") // optional-field
+    @SuppressWarnings("optional.field") // style-optional-field
     private final Optional<File> configurationFile;
 
     public ConfigurationFile(@Nullable final File configurationFile) {

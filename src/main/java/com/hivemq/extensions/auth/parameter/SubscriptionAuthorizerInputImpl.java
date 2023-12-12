@@ -40,7 +40,7 @@ public class SubscriptionAuthorizerInputImpl
     @NotNull
     private final UserProperties userProperties;
 
-    @SuppressWarnings("optional:optional.field") // optional-field
+    @SuppressWarnings("optional:optional.field") // style-optional-field
     @NotNull
     private final Optional<Integer> subscriptionIdentifier;
 
