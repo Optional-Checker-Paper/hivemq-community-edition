@@ -307,15 +307,21 @@ tasks.forbiddenApisMain {
     exclude("**/LoggingBootstrap.class")
 }
 
+tasks.withType<JavaCompile> {
+         options.compilerArgs.addAll(listOf("-Xmaxerrs", "99999"))
+}
+
 configure<CheckerFrameworkExtension> {
     checkers = listOf(
-        "org.checkerframework.checker.optional.OptionalChecker"
+        "org.checkerframework.checker.optional.OptionalChecker",
+        "org.checkerframework.common.util.report.ReportChecker"
     )
     extraJavacArgs = mutableListOf(
         "-AsuppressWarnings=type.anno.before.modifier,type.anno.before.decl.anno",
         "-AassumePure",
         "-AwarnUnneededSuppressions",
-        "-AassumeAssertionsAreEnabled"
+        "-AassumeAssertionsAreEnabled",
+        "-Astubs=${project.projectDir}/reportoptional.astub"
     )
     excludeTests = true
     val checkerFrameworkVersion = "3.41.1-SNAPSHOT"
