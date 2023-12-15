@@ -308,7 +308,7 @@ tasks.forbiddenApisMain {
 }
 
 tasks.withType<JavaCompile> {
-         options.compilerArgs.addAll(listOf("-Xmaxerrs", "99999", "-Xmaxwarns", "99999"))
+         options.compilerArgs.addAll(listOf("-Xmaxerrs", "99999"))
 }
 
 configure<CheckerFrameworkExtension> {
@@ -321,6 +321,7 @@ configure<CheckerFrameworkExtension> {
         "-AwarnUnneededSuppressions",
         "-AassumeAssertionsAreEnabled",
         "-AReportChecker_warns",
+        "-Xmaxwarns", "99999",
         "-Astubs=${project.projectDir}/reportoptional.astub"
     )
     excludeTests = true
