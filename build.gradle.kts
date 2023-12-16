@@ -318,7 +318,7 @@ configure<CheckerFrameworkExtension> {
         "-AassumeAssertionsAreEnabled",
     )
     excludeTests = true
-    val checkerFrameworkVersion = "3.41.1-SNAPSHOT"
+    val checkerFrameworkVersion = "3.42.0"
     dependencies {
         compileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
         testCompileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
