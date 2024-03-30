@@ -318,12 +318,20 @@ configure<CheckerFrameworkExtension> {
         "-AassumeAssertionsAreEnabled",
     )
     excludeTests = true
-    val checkerFrameworkVersion = "3.42.0"
-    dependencies {
-        compileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
-        testCompileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
-        checkerFramework("org.checkerframework:checker:${checkerFrameworkVersion}")
-    }
+if (project.hasProperty("cfLocal")) {
+  val cfHome = System.getenv("CHECKERFRAMEWORK")
+  dependencies {
+    compileOnly(files(cfHome + "/checker/dist/checker-qual.jar"))
+    testCompileOnly(files(cfHome + "/checker/dist/checker-qual.jar"))
+    checkerFramework(files(cfHome + "/checker/dist/checker.jar"))
+  }
+}
+    // val checkerFrameworkVersion = "3.42.0"
+    // dependencies {
+    //     compileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
+    //     testCompileOnly("org.checkerframework:checker-qual:${checkerFrameworkVersion}")
+    //     checkerFramework("org.checkerframework:checker:${checkerFrameworkVersion}")
+    // }
     configurations.all({
         resolutionStrategy.cacheChangingModulesFor(0, "seconds")
     })
